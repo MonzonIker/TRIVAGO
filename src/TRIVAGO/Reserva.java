@@ -50,6 +50,11 @@ public class Reserva {
 	public void setHasta(LocalDate hasta) {
 		this.hasta = hasta;
 	}
+	@Override
+	public String toString() {
+		return "Reserva [id=" + id + ", id_habitacion=" + id_habitacion + ", dni=" + dni + ", desde=" + desde
+				+ ", hasta=" + hasta + "]";
+	}
 	
 	
 
