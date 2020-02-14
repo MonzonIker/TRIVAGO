@@ -27,7 +27,7 @@ public class ModeloCliente extends Conexion {
 
 				l1.get(aux).setDni(rs.getString("dni"));
 				l1.get(aux).setNombre(rs.getString("nombre"));
-				l1.get(aux).setApellido(rs.getString("apellido"));
+				l1.get(aux).setApellido(rs.getString("apellidos"));
 				l1.get(aux).setDireccion(rs.getString("direccion"));
 				l1.get(aux).setLocalidad(rs.getString("localidad"));
 
